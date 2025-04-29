@@ -1,0 +1,571 @@
+<secrion id="{{ section.id }}">
+  <div class="product-tab-wrapper color-background-1 gradient">
+    <div class=" page-full-width page-full-width_spacing isolate">
+     <div class="custom-container">
+       <div class="collection"><div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin text-align-center">
+          <h6 class="sub-heading sub_title">
+            Favorite Items
+          </h6>
+          <h2 class="title h2">
+            For Unique Dining
+          </h2>
+       </div>
+      <div class="image-with-text__grid grid">
+        <div class="grid_s_item tab-template--22518065103142__783e0a15-bf3d-49c0-af6c-7d261324e01c-js" id="tab-template--22518065103142__783e0a15-bf3d-49c0-af6c-7d261324e01c-js" data-tab-wrapper="tab-main-template--22518065103142__783e0a15-bf3d-49c0-af6c-7d261324e01c">
+          <div class="tabs">
+              <div class="tablinks" id="dT_tab-1">
+                <div class="tab_image"></div>
+                <div class="tab_title">
+              Asian
+              </div>
+              </div>
+              <div class="tablinks" id="dT_tab-2">
+                <div class="tab_image"></div>
+                <div class="tab_title">
+                      Italian
+                 </div>
+              </div>
+              <div class="tablinks" id="dT_tab-3">
+                <div class="tab_image"></div>
+                <div class="tab_title">
+                      Chinese
+                 </div>
+              </div>
+              <div class="tablinks" id="dT_tab-4">
+                <div class="tab_image"></div>
+                <div class="tab_title">
+                      American
+                 </div>
+              </div>
+            
+          </div>
+
+          <div class="tabs_container">
+            
+              <div class="tab_details dt-sc-tabs-content-Details active" data-tab="dT_tab-1">
+                <div class="block_section">
+                  <div class="left_blocks">
+                    <a href="/products/cocktail" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Pumpkin Muffins</h4>
+                          <p>In tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Amet luctus venenatis.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/AdobeStock_281764445_2x_e1d7723e-a39d-4976-a8a4-ff3c8b05e463.png?v=1687350987&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/french-fries" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Baked Beans</h4>
+                          <p>Semper feugiat nibh sed pulvinar. Magnis dis parturient montes nascetur ridiculus.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-07.jpg?v=1689859552&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/fried-chicken" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Cheesy Bacon</h4>
+                          <p>Faucibus et molestie ac feugiat sed lectus. Commodo ullamcorper a lacus vestibulum sed.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-01.jpg?v=1689859489&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="right_blocks">
+                    <a href="/products/grilled-chicken-wings" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Frozen Fruit</h4>
+                          <p>Gres tempus turpis at metus scelerisque placerat  nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-02.jpg?v=1689859505&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/hot-spicy-egg-noodles" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Mixed Salad</h4>
+                          <p>Risus viverra adipiscing at in tellus integer feugiat scelerisque. Imperdiet nulla malesuada.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-11.jpg?v=1689859519&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/iced-diet-lemon-soda" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Salmon Tacos</h4>
+                          <p>Dignissim convallis aenean et tortor at risus viverra adipiscing. Elementum tempus sed.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-08.jpg?v=1689859535&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="tab_details dt-sc-tabs-content-Details" data-tab="dT_tab-2">
+                <div class="block_section">
+                  <div class="left_blocks">
+                    <a href="/products/italian-fried-calamari" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Risotto</h4>
+                          <p>Hies tempus turpis at metus scelerisque placerat  nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-01_254cb0b6-c1ba-466f-992b-7ba8a49d25bb.jpg?v=1689859578&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/margarita" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Pasta Salad</h4>
+                          <p>Jules tempus turpis at metus scelerisque placerat  nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-03.jpg?v=1689859594&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/mexican-tacos-with-beef" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Gnocchi</h4>
+                          <p>Ules tempus turpis at metus scelerisque placerat  nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-05.jpg?v=1689859610&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="right_blocks">
+                    <a href="/products/naan-with-garlic-sesoning" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Genovese</h4>
+                          <p>Eges tempus turpis at metus scelerisque placerat  nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-02_f7f8fdea-e0b3-4310-babe-f6142186cc29.jpg?v=1689859625&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/noodles" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Lasagne</h4>
+                          <p>Phies tempus turpis at metus scelerisque placerat  nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-04.jpg?v=1689859639&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/pizza-with-salami-cheese" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Parma Ham</h4>
+                          <p>Geres tempus turpis at metus scelerisque placerat  nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-06.jpg?v=1689859656&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="tab_details dt-sc-tabs-content-Details" data-tab="dT_tab-3">
+                <div class="block_section">
+                  <div class="left_blocks">
+                    <a href="/products/ramen" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Peking Roasted</h4>
+                          <p>Ae tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Amet luctus venenatis.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-04.jpg?v=1689859639&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/roasted-chicken-sandwitch" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Kung Pao Chicken</h4>
+                          <p>Seu tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Amet luctus venenatis.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-11.jpg?v=1689859519&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/smoothie" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Sweet &amp; Sour Pork</h4>
+                          <p>Tellusiou integer feugiat scelerisque varius morbi enim nunc faucibus. Amet luctus venenatis.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-06.jpg?v=1689859656&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="right_blocks">
+                    <a href="/products/spicy-grilled-meat-steak" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Hot Pot</h4>
+                          <p>In tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Amet luctus venenatis.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-12.jpg?v=1689859474&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/spicy-shrimp-briyani-with-lemon" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Dim Sum</h4>
+                          <p>Integ tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Amet luctus venenatis.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-02_f7f8fdea-e0b3-4310-babe-f6142186cc29.jpg?v=1689859625&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/stuffed-tacos" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Dumplings</h4>
+                          <p>Pio tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Amet luctus venenatis.</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-11.jpg?v=1689859519&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="tab_details dt-sc-tabs-content-Details" data-tab="dT_tab-4">
+                <div class="block_section">
+                  <div class="left_blocks">
+                    <a href="/products/submarine-sandwiches" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Key Lime Pie</h4>
+                          <p>Kres tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-05.jpg?v=1689859610&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/stuffed-tacos" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Tater Tots</h4>
+                          <p>Tempus gres turpis at metus scelerisque placerat nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-01_254cb0b6-c1ba-466f-992b-7ba8a49d25bb.jpg?v=1689859578&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/strawberry-lemonade-soda" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Cobb Salad</h4>
+                          <p>Et metus gres tempus turpis scelerisque placerat nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-08.jpg?v=1689859535&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="right_blocks">
+                    <a href="/products/spicy-shrimp-briyani-with-lemon" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Pot Roast</h4>
+                          <p>Hoes tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-12.jpg?v=1689859474&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/spicy-meals" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Jerky</h4>
+                          <p>Scelerisque placerat nulla gres tempus turpis at metus deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-08.jpg?v=1689859535&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/products/fried-chicken" class="block-link">
+                      <div class="block_wrapper">
+                        <div class="content">
+                          <h4 class="block_title">Fajitas</h4>
+                          <p>Gres tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis..</p>
+                        </div>
+                        <div class="image_block">
+                          
+                            <img src="//dt-kudil.myshopify.com/cdn/shop/files/shop-image-04.jpg?v=1689859639&amp;width=200" width="150" height="150" loading="lazy">
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</secrion>
+<style>
+  #{{section.id}} .custom-container{
+    margin:0 8%;
+  }
+  #{{ section.id }}{
+    margin-bottom:5rem;
+    display:block;
+  }
+#{{ section.id }} .text-align-center {
+    text-align: center!important;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    flex-direction:column;
+}
+#{{ section.id }} .sub-heading{
+  margin-bottom:0;
+}
+#{{ section.id }} .title-wrapper-with-link .title {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+ #{{ section.id }} .sub_title {
+    font-family: 'Tangerine';
+    letter-spacing: 0;
+    font-weight: 400;
+    margin: 0!important;
+    color: #c59d5f;
+    font-size: 3.4rem;
+    line-height: normal;
+}
+#{{ section.id }} .image-with-text__grid .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    justify-content: center;
+    row-gap: 10px;
+    width: 100%;
+}
+#{{ section.id }} .product-tab-wrapper .collection .grid {
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    flex-direction:column;
+}
+#{{ section.id }} .image-with-text__grid .tabs .tablinks {
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px 3.5rem;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-right: none;
+    box-shadow: none;
+    transition: all .3s linear;
+    font-weight: 600;
+    flex-wrap: wrap;
+    background: #c59d5f;
+    border-radius: 3rem;
+}
+#{{ section.id }} .block_section {
+    display: flex;
+    column-gap: 30px;
+}
+.left_blocks, .right_blocks {
+    background-image: url('https://cdn.shopify.com/s/files/1/0926/7088/6218/files/background-tabs.png?v=1745473852');
+    background-size: contain;
+    padding: 50px;
+    background-color:#fffaf2;
+    border-radius: 20px;
+}
+
+ #{{ section.id }} .block_wrapper {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom:3rem;
+}
+#{{ section.id }} .block_wrapper .content {
+    width: calc(100% - 160px);
+}
+  .left_blocks .block_wrapper .image_block, .right_blocks .block_wrapper .image_block {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#{{ section.id }} .block-link:hover .block_wrapper .content .block_title {
+    color: #c59d5f;
+}
+#{{ section.id }} .block_wrapper .content .block_title {
+    color: #041527;
+    transition: all .3s linear;
+    margin: 0 0 1rem;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+#{{ section.id }}  .block_wrapper .content p {
+    margin: 0;
+    color: #041527;
+    font-size: 16px;
+}
+#{{ section.id }} .block-link:hover .block_wrapper .image_block:before {
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+#{{ section.id }} .block-link .block_wrapper .image_block:before {
+    content: "";
+    width: 0%;
+    height: 0%;
+    background: #041527;
+    position: absolute;
+    transition: all .3s linear;
+    opacity: 0;
+    border-radius: 50%;
+}
+ #{{ section.id }} .image-with-text__grid .tabs .tablinks.active {
+    background: #041527;
+}
+  .image-with-text__grid .tabs_container .dt-sc-tabs-content-Details:not(.active) {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+ $('.tab-template--22518065103142__783e0a15-bf3d-49c0-af6c-7d261324e01c-js').each(function(){
+    $(this).find('.dt-sc-tabs-content-Details:first').addClass('active');
+  $(this).find('.tablinks:first').addClass('active');
+  });
+
+  $('.tab-template--22518065103142__783e0a15-bf3d-49c0-af6c-7d261324e01c-js .tablinks').each(function(){
+    $(this).on('click', function(){
+    var $this = $(this);
+    var $theTab = $(this).attr('id');
+    $(this).fadeIn('slow').siblings(".dt-sc-tabs-content-Details").hide();
+    if($this.hasClass('active')){
+      // do nothing
+
+    } else {
+     $this.closest('.tab-template--22518065103142__783e0a15-bf3d-49c0-af6c-7d261324e01c-js').find('.tabs .tablinks, .tabs_container .dt-sc-tabs-content-Details').removeClass('active'); $('.tablinks[id="'+$theTab+'"]').addClass('active');
+     $('.tab-template--22518065103142__783e0a15-bf3d-49c0-af6c-7d261324e01c-js .tabs_container .dt-sc-tabs-content-Details[data-tab="'+$theTab+'"], .tab-template--22518065103142__783e0a15-bf3d-49c0-af6c-7d261324e01c-js .tabs .tablinks[id="'+$theTab+'"]').addClass('active');
+       }
+     });
+    });
+</script>
+{% schema %}
+  {
+    "name": "Dyanmic Tabs",
+    "settings": [],
+    "presets": [
+      {
+        "name":"Dynamic Tabs"
+      }
+    ]
+  }
+{% endschema %}
