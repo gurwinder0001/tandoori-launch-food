@@ -1,0 +1,298 @@
+<section class="{{ section.id }}">
+  <div class="promo-banner-section"> 
+    <div class="promo-banner-content">
+      <p class="subheading">{{ section.settings.subheading }}</p>
+      <h2 class="main-heading">{{ section.settings.heading }}</h2>
+      <p class="description">{{ section.settings.description }}</p>
+      {% if section.settings.button_label != blank %}
+        <a href="{{ section.settings.button_link }}" class="promo-button">
+          {{ section.settings.button_label }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- First Marquee (Normal Direction) -->
+  <div class="marquee-container marquee-section style_1">
+    <ul class="marquee-wrapper">
+      {% for block in section.blocks %}
+        {% if block.settings.image %}
+        <li class="marquee-block">
+          <div class="marquee-inner-wrapper">
+            <a href="">
+              <div class="marquee-image">
+                <img src="{{ block.settings.image | img_url: 'medium' }}" loading="lazy" class="dt-sc-brand-image" alt="">
+              </div>
+            </a>
+          </div>
+        </li>
+        {% endif %}
+      {% endfor %}
+      {% for block in section.blocks %}
+        {% if block.settings.image %}
+        <li class="marquee-block">
+          <div class="marquee-inner-wrapper">
+            <a href="">
+              <div class="marquee-image">
+                <img src="{{ block.settings.image | img_url: 'medium' }}" loading="lazy" class="dt-sc-brand-image" alt="">
+              </div>
+            </a>
+          </div>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Second Marquee (Reverse Direction) -->
+  <div class="marquee-container marquee-section style_2 reverse">
+    <ul class="marquee-wrapper reverse-wrapper">
+      {% for block in section.blocks %}
+        {% if block.settings.image %}
+        <li class="marquee-block">
+          <div class="marquee-inner-wrapper">
+            <a href="">
+              <div class="marquee-image">
+                <img src="{{ block.settings.image | img_url: 'medium' }}" loading="lazy" class="dt-sc-brand-image" alt="">
+              </div>
+            </a>
+          </div>
+        </li>
+        {% endif %}
+      {% endfor %}
+      {% for block in section.blocks %}
+        {% if block.settings.image %}
+        <li class="marquee-block">
+          <div class="marquee-inner-wrapper">
+            <a href="">
+              <div class="marquee-image">
+                <img src="{{ block.settings.image | img_url: 'medium' }}" loading="lazy" class="dt-sc-brand-image" alt="">
+              </div>
+            </a>
+          </div>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+</section>
+
+<script type="text/javascript">
+  window.addEventListener('load', () => {
+    document.querySelectorAll(".marquee-wrapper").forEach(marqueeContent => {
+      const marqueeItems = marqueeContent.children.length;
+      for (let i = 0; i < marqueeItems; i++) {
+        marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+      }
+    });
+  });
+</script>
+
+<style>
+
+ .{{ section.id }} .promo-banner-content .subheading {
+     font-family: "Tangerine";
+     font-size: 4rem;
+     color: #ffffff;
+     margin-bottom:0;
+   }
+  .{{ section.id }} .promo-banner-content .main-heading {
+    font-size: 4.5rem;
+    margin: 1rem 0;
+    color: #fff;
+    font-weight: 600;
+   }
+  .{{ section.id }} {
+    overflow-x: hidden;
+    position: relative;
+  }
+  .promo-banner-section {
+    background: linear-gradient(#041527bd, #041527b3), url('{{ section.settings.background_image | img_url: "master" }}') center/cover no-repeat;
+    padding: 4rem 1rem;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    min-height:600px;
+  }
+  
+  .promo-banner-content .subheading {
+    font-family: cursive;
+    font-size: 1.5rem;
+  }
+
+  .promo-banner-content .main-heading {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .promo-banner-content .description {
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .promo-button {
+    background: #cd0c0a;
+    padding: 1.35rem 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0px;
+    position:relative;
+    overflow:hidden;
+    text-transform:capitalize;
+  }
+  .promo-button::before{
+    content: "Grab Your Order";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 0;
+    box-shadow: 0 0 0 #04152700;
+    transform: scale(.5);
+    transition: all .15s linear;
+    background: #041527;
+    opacity: 0;
+    padding-top: 8px;
+    text-transform:capitalize;
+ }
+  .promo-button:hover::before{
+    transform: scale(1);
+    opacity: 1;
+  }
+  /* First Marquee (Normal Direction) */
+  .marquee-container.marquee-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .marquee-wrapper {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    animation: marquee_scroll 10s linear infinite;
+    gap: 20px;
+  }
+
+  .marquee-block {
+    flex: 0 0 auto;
+  }
+
+  .marquee-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .marquee-section .marquee-wrapper li.marquee-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-shrink: 0;
+    width: fit-content;
+    max-height: 100%;
+    white-space: nowrap;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .marquee-section .marquee-wrapper li.marquee-block a {
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+  .marquee-container.marquee-section.style_1{
+    margin-top:-50px;
+  }
+  @keyframes marquee_scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  /* Second Marquee (Reverse Direction) */
+  .marquee-container.style_2 .reverse-wrapper {
+    animation: marquee_scroll_reverse 10s linear infinite;
+    transform: translateX(50%);
+  }
+  @keyframes marquee_scroll_reverse {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Banner Marquee",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Upto 25% off"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Main Heading",
+      "default": "On Italian, Mexican, And Indian Cuisine"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Sample text about the offer and categories."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Text",
+      "default": "Grab Your Offer"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Marquee Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Slider Image"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 30,
+  "presets": [
+    {
+      "name": "Banner Marquee",
+      "category": "Promotional"
+    }
+  ]
+}
+{% endschema %}
